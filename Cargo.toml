@@ -1,0 +1,12 @@
+[package]
+name = "toy-green-thread"
+version = "0.1.0"
+edition = "2021"
+build = "./build/build.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+nix = { version = "0.27.1", features = ["mman"] }
+rand = "0.8.5"
+anyhow = "1.0.75"
